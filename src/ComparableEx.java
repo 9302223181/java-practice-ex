@@ -3,7 +3,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-public class Comparator {
+public class ComparableEx {
 
     public static void main(String[] args) {
 
