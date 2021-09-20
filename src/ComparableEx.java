@@ -8,10 +8,12 @@ public class ComparableEx {
     public static void main(String[] args) {
 
         List<Laptop> lap = new ArrayList<>();
+
         lap.add(new Laptop("Dell",4,30000));
         lap.add(new Laptop("Apple",6,70000));
         lap.add(new Laptop("Hp",4,35000));
 
+        //sort laptops in ascending order using comparable
         Collections.sort(lap);
 
         //method reference
