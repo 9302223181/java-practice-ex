@@ -25,10 +25,10 @@ public class ComparatorEx {
                 //return Integer.compare(o1.getPrice(), o2.getPrice());
             };
 
-        //sort laptops in ascending order using Comparator
+        //sort laptops based on price in ascending order using Comparator
         Collections.sort(lap,comparator);
 
-        //sort laptops in descending order using Comparator
+        //sort laptops based on price in descending order using Comparator
         //Collections.sort(lap,comparator.reversed());
 
         //method reference

@@ -13,10 +13,10 @@ public class ComparableEx {
         lap.add(new Laptop("Apple",6,70000));
         lap.add(new Laptop("Hp",5,35000));
 
-        //sort laptops in ascending order using comparable
+        //sort laptops based on ram size in ascending order using comparable
         Collections.sort(lap);
 
-        //sort laptops in descending order using comparable
+        //sort laptops based on ram size in descending order using comparable
         //Collections.sort(lap,Collections.reverseOrder());
 
         //method reference
